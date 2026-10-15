@@ -1,0 +1,10 @@
+{"session_id":"research-01","timestamp":"2026-10-14T22:01:00Z","tool":"web_search","input":{"query":"latest AI agent frameworks"},"status":"success","duration_ms":630,"tokens":950}
+{"session_id":"research-01","timestamp":"2026-10-14T22:01:02Z","tool":"fetch_page","input":{"url":"https://example.com/agent-frameworks"},"status":"error","duration_ms":1550,"tokens":60,"error":"HTTP 503: service unavailable"}
+{"session_id":"research-01","timestamp":"2026-10-14T22:01:04Z","tool":"fetch_page","input":{"url":"https://example.com/agent-frameworks"},"status":"error","duration_ms":1620,"tokens":60,"error":"HTTP 503: service unavailable"}
+{"session_id":"research-01","timestamp":"2026-10-14T22:01:06Z","tool":"web_search","input":{"query":"latest AI agent frameworks"},"status":"success","duration_ms":490,"tokens":870}
+{"session_id":"research-01","timestamp":"2026-10-14T22:01:07Z","tool":"summarize","input":{"text":"Findings A"},"status":"success","duration_ms":980,"tokens":2100}
+{"session_id":"coding-02","timestamp":"2026-10-14T22:03:00Z","tool":"run_python","input":{"code":"print(2 + 2)"},"status":"success","duration_ms":110,"tokens":100}
+{"session_id":"coding-02","timestamp":"2026-10-14T22:03:02Z","tool":"run_python","input":{"code":"print(2 + 2)"},"status":"success","duration_ms":115,"tokens":100}
+{"session_id":"coding-02","timestamp":"2026-10-14T22:03:04Z","tool":"run_python","input":{"code":"1 / 0"},"status":"error","duration_ms":105,"tokens":90,"error":"ZeroDivisionError"}
+{"session_id":"coding-02","timestamp":"2026-10-14T22:03:07Z","tool":"web_search","input":{"query":"latest AI agent frameworks"},"status":"success","duration_ms":720,"tokens":880}
+{"session_id":"coding-02","timestamp":"2026-10-14T22:03:08Z","tool":"summarize","input":{"text":"Findings B"},"status":"success","duration_ms":1250,"tokens":1900}

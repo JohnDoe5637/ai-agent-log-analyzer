@@ -92,3 +92,14 @@ ai-agent-log-analyzer/
 ## Tech stack
 
 Python 3, `argparse`, `json`, `collections`, `unittest`. Designed to stay small, transparent, and easy to extend.
+
+## Future Improvements
+
+- Track estimated API costs based on token usage.
+- Support real-time log monitoring.
+- Export analysis results to CSV.
+- Add visualizations for tool performance.
+- Compare execution efficiency across AI agents.
+
+
+

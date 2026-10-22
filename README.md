@@ -107,10 +107,7 @@ Python 3, `argparse`, `json`, `collections`, `unittest`. Designed to stay small,
 ### Requirements
 - Python 3.10 or newer
 
-### Running the Project
-1. Clone the repository.
-2. Open a terminal in the project folder.
-3. Run:
+
 
 ```bash
 python analyzer.py

@@ -12,7 +12,10 @@ AI agents may repeatedly call tools, retry failed requests, or spend too much ti
 
 **Prerequisite:** Python 3.9 or newer.
 
-
+```bash
+# Clone your repo after uploading it (or open this folder locally).
+python analyzer.py sample_logs.jsonl
+```
 
 ### Example output
 

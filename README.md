@@ -1,6 +1,8 @@
 # AI Agent Log Analyzer
 
+A lightweight Python command-line tool that helps developers **debug AI agents** by analyzing logs of agent tool calls. It detects **failures, repeated tool calls, slow operations, and token usage**, with no API key or third-party packages required.
 
+## Why this exists
 
 AI agents may repeatedly call tools, retry failed requests, or spend too much time on a single operation. This project provides a simple observability starting point: inspect a `.jsonl` file to see where agent runs may need attention.
 

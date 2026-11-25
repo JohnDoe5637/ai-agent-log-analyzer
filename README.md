@@ -103,18 +103,25 @@ Python 3, `argparse`, `json`, `collections`, `unittest`. Designed to stay small,
 
 ## Getting Started
 
-### Running the Project
-1. Clone the repository.
-2. Open a terminal in the project folder.
-3. Run:
-   
 ### Requirements
 - Python 3.10 or newer
 
+### Running the Project
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/JohnDoe5637/ai-agent-log-analyzer.git
+   cd ai-agent-log-analyzer
+   ```
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Run the analyzer on the sample logs:
+   ```bash
+   python analyzer.py sample_logs.jsonl
+   ```
 
-
+### Running Tests
 ```bash
-python analyzer.py
+python -m unittest test_analyzer.py
 ```
-
-
